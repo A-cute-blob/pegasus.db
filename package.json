@@ -1,5 +1,5 @@
 {
-  "name": "inline.db",
+  "name": "pegasus.db",
   "version": "1.0.0",
   "description": "Fast and simple database",
   "main": "index.js",
@@ -15,11 +15,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/tatsumaki-coderr/inline.db.git"
+    "url": "https://github.com/tatsumaki-coderr/pegasus.db.git"
   },
   "bugs": {
-    "url": "https://github.com/tatsumaki-coderr/inline.db/issues"
+    "url": "https://github.com/tatsumaki-coderr/pegasus.db/issues"
   },
   "author": "Tatsumaki",
-  "license": "GPL -3.0"
+  "license": "GPL -3.0",
+  "dependencies": {
+    "beta.db": "^2.1.9"
+  }
 }
