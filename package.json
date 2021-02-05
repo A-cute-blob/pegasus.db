@@ -1,0 +1,25 @@
+{
+  "name": "inline.db",
+  "version": "1.0.0",
+  "description": "Fast and simple database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "quickmongo",
+    "database",
+    "mongo",
+    "db"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tatsumaki-coderr/inline.db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tatsumaki-coderr/inline.db/issues"
+  },
+  "author": "Tatsumaki",
+  "license": "GPL -3.0"
+}
