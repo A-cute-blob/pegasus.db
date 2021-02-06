@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Client#get",
+    "filePath": "src/index.js",
+    "lines": [
+      {
+        "lineNumber": 20,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 21,
+        "line": "   * Fetch a value"
+      },
+      {
+        "lineNumber": 22,
+        "line": "   * @param  key"
+      },
+      {
+        "lineNumber": 23,
+        "line": "   * @param value"
+      },
+      {
+        "lineNumber": 24,
+        "line": "   * @example db.get('key')"
+      },
+      {
+        "lineNumber": 25,
+        "line": "   * @returns value"
+      },
+      {
+        "lineNumber": 26,
+        "line": "   */"
+      },
+      {
+        "lineNumber": 27,
+        "line": "  async get(key) {"
+      }
+    ],
+    "codeParams": [
+      "key"
+    ],
+    "docParams": [
+      "key",
+      "value"
+    ]
+  },
+  {
+    "name": "Client#fetch",
+    "filePath": "src/index.js",
+    "lines": [
+      {
+        "lineNumber": 33,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 34,
+        "line": "   * Fetch a value"
+      },
+      {
+        "lineNumber": 35,
+        "line": "   * @param  key"
+      },
+      {
+        "lineNumber": 36,
+        "line": "   * @param value"
+      },
+      {
+        "lineNumber": 37,
+        "line": "   * @example db.fetch('key')"
+      },
+      {
+        "lineNumber": 38,
+        "line": "   * @returns value"
+      },
+      {
+        "lineNumber": 39,
+        "line": "   */"
+      },
+      {
+        "lineNumber": 40,
+        "line": "    async fetch(key) {"
+      }
+    ],
+    "codeParams": [
+      "key"
+    ],
+    "docParams": [
+      "key",
+      "value"
+    ]
+  }
+]
