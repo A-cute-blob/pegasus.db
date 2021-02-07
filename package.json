@@ -1,8 +1,11 @@
 {
   "name": "pegasus.db",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Fast and simple database",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
     "json",
     "quickmongo",
@@ -20,9 +23,11 @@
   "author": "Tatsumaki",
   "license": "GPL -3.0",
   "dependencies": {
-    "beta.db": "^2.1.9",
-    "esdoc": "^1.1.0",
+    "beta.db": "^2.1.9"
+  },
+  "devDependencies": {
+    "esdoc": "^1.0.4",
     "esdoc-standard-plugin": "^1.0.0",
-    "lodash": "^4.17.20"
+    "jsdoc": "^3.6.6"
   }
 }
