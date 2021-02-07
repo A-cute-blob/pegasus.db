@@ -21,7 +21,7 @@ this.substract = (key, value) => db.substract(key, value)
 this.push = (key, value) => db.push(key, value)
 this.createBackup = () => db.setBackup('backup.json')
 this.loadBackup = () => db.loadBackup();
-this.delete = (key) => db.delete(key);
+this.delete = (key) => db.deleteKey(key);
 this.all = () => db.all();
 };
 /**
@@ -135,4 +135,7 @@ return true;
 
 }
 }
-  
+ module.exports = {
+  version: require('./package.json').version,
+  Client: Client
+} 
