@@ -25,9 +25,5 @@
   "dependencies": {
     "beta.db": "^2.1.9"
   },
-  "devDependencies": {
-    "esdoc": "^1.0.4",
-    "esdoc-standard-plugin": "^1.0.0",
-    "jsdoc": "^3.6.6"
-  }
+  "homepage": "https://pegasusdb.js.org/"
 }
